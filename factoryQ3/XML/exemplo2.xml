@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<industria>
+    <setor nome="Produção">
+        <supervisor>
+            <nome>João da Silva</nome>
+            <idade>45</idade>
+            <experiencia>Anos</experiencia>
+        </supervisor>
+        
+        <maquinas>
+            <maquina id="M001">
+                <nome>Prensa Hidráulica</nome>
+                <modelo>PHX-3000</modelo>
+                <fabricante>Fabrimac</fabricante>
+                <anoFabricacao>2018</anoFabricacao>
+                <status>Em operação</status>
+            </maquina>
+            <maquina id="M002">
+                <nome>Injetora Plástica</nome>
+                <modelo>IP-450</modelo>
+                <fabricante>IndusPlast</fabricante>
+                <anoFabricacao>2020</anoFabricacao>
+                <status>Em manutenção</status>
+            </maquina>
+        </maquinas>
+
+        <funcionarios>
+            <funcionario id="F001">
+                <nome>Maria Oliveira</nome>
+                <idade>35</idade>
+                <cargo>Operadora de Máquina</cargo>
+                <salario>3500.00</salario>
+                <dataAdmissao>2015-06-20</dataAdmissao>
+            </funcionario>
+            <funcionario id="F002">
+                <nome>Carlos Pereira</nome>
+                <idade>28</idade>
+                <cargo>Técnico de Manutenção</cargo>
+                <salario>4200.00</salario>
+                <dataAdmissao>2018-03-15</dataAdmissao>
+            </funcionario>
+        </funcionarios>
+
+        <atividades>
+            <atividade id="A001">
+                <descricao>Operação da prensa para produção de peças metálicas</descricao>
+                <responsavel>Maria Oliveira</responsavel>
+                <dataInicio>2024-09-20</dataInicio>
+                <status>Concluída</status>
+            </atividade>
+            <atividade id="A002">
+                <descricao>Manutenção preventiva da injetora plástica</descricao>
+                <responsavel>Carlos Pereira</responsavel>
+                <dataInicio>2024-09-25</dataInicio>
+                <status>Em andamento</status>
+            </atividade>
+        </atividades>
+    </setor>
+</industria>

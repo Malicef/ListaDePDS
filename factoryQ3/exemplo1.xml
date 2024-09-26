@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livraria>
+    <livro isbn="123-456">
+        <titulo>O Pequeno Príncipe</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <preco>29.99</preco>
+    </livro>
+    <livro isbn="789-101">
+        <titulo>Dom Quixote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <preco>39.99</preco>
+    </livro>
+</livraria>

@@ -6,7 +6,7 @@ import org.xml.sax.ContentHandler;
 public class Main {
     public static void main(String[] args) {
         try {
-            InputStream arquivoXML1 = new FileInputStream("questao3/XML/exemplo1.xml");
+            InputStream arquivoXML1 = new FileInputStream("factoryQ3/XML/exemplo1.xml");
 
             System.out.println("\n\nUmaXMLReader:\n\n");
             XMLReaderFactory fabrica1 = new UmaXMLReaderFactory();
@@ -16,7 +16,7 @@ public class Main {
             leitor1.parse(arquivoXML1);
             System.out.println("------------------------------");
 
-            InputStream arquivoXML2 = new FileInputStream("questao3/XML/exemplo1.xml");
+            InputStream arquivoXML2 = new FileInputStream("factoryQ3/XML/exemplo1.xml");
 
             System.out.println("\n\nOutraXMLReader:\n\n");
             XMLReaderFactory fabrica2 = new OutraXMLReaderFactory();
@@ -26,7 +26,7 @@ public class Main {
             leitor2.parse(arquivoXML2);
             System.out.println("------------------------------");
 
-            InputStream arquivoXML3 = new FileInputStream("questao3/XML/exemplo2.xml");
+            InputStream arquivoXML3 = new FileInputStream("factoryQ3/XML/exemplo2.xml");
 
             System.out.println("\n\nUmaXMLReader:\n\n");
             XMLReaderFactory fabrica3 = new UmaXMLReaderFactory();
@@ -36,7 +36,7 @@ public class Main {
             leitor3.parse(arquivoXML3);
             System.out.println("------------------------------");
 
-            InputStream arquivoXML4 = new FileInputStream("questao3/XML/exemplo2.xml");
+            InputStream arquivoXML4 = new FileInputStream("factoryQ3/XML/exemplo2.xml");
 
             System.out.println("\n\nOutraXMLReader:\n\n");
             XMLReaderFactory fabrica4 = new OutraXMLReaderFactory();
